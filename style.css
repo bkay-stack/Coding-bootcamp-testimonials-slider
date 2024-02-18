@@ -160,13 +160,11 @@ button {
      }
 
      .slider-img {
-       
+        width: 90%;
      }
       
-      button {
-      position: absolute;
-       top: 310px;
-  }
+    
+
   
   
 }
