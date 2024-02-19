@@ -42,7 +42,7 @@ body {
 .slider-container {
     display: flex;
     justify-content: center; 
-    max-width: 1440px;
+    max-width: 1300px;
     min-height: 100vh;
     margin: 0 auto;
     padding: 2rem;
@@ -52,7 +52,8 @@ body {
  .slide {
     display: flex;
     flex-direction: column-reverse;
-    position: relative;
+    /* position: relative; */
+    
  }
 
  .author {
@@ -90,7 +91,7 @@ body {
    background-position: center;
    background-repeat: no-repeat;
    background-size: contain;
-   
+   position: relative;
    /* transform: scale(60%); */
   
  }
@@ -108,10 +109,10 @@ body {
 
 button {
    position: absolute;
-   /* top: -20px; */
-   bottom: 320px;
-   right: 179px;
-   /* left: 40px; */
+   /* top: 20px; */
+   bottom: 390px;
+   /* right: 20px; */
+   left:165px;
    display: flex;
    gap: 2rem;
    padding: 1rem;
@@ -120,11 +121,14 @@ button {
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    border-radius: 25px;
    cursor: pointer;
+  
 }
 
 
-@media (min-width:760px) {
 
+@media (min-width:960px) {
+      
+     
      
      .slider-container {
         display: flex;
@@ -163,7 +167,29 @@ button {
         width: 90%;
      }
       
+     .slider-text  {
+      margin-top: 2rem;
+      
+   
+      /* IMG */
+      background-image: url(./images/pattern-quotes.svg);
+      background-position:center;
+      background-repeat: no-repeat;
+      background-size: 80px;
+     
+    }
+
+
     
+   
+    button {
+      position: absolute;
+      /* top: 20px; */
+      bottom: 160px;
+      /* right: 500px; */
+      left: 770px;
+ 
+   }
 
   
   
