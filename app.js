@@ -1,4 +1,4 @@
-// const slides = document.querySelectorAll('.slider')
+// const slides = document.querySelectorAll('.slide')
 // const prevBtn = document.querySelector('.btnPrev')
 // const nextBtn = document.querySelector('.btnNext')
 
@@ -33,3 +33,10 @@
 // prevBtn.addEventListener('click', prevSlide)
 
 // showSlide(slideIndex)
+
+
+
+
+
+
+
